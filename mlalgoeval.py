@@ -114,3 +114,43 @@ if __name__ == "__main__":
 
     # Call the main function with your data and target column
     main(data, target_column)
+
+
+
+
+Sample Output: 
+Regression Algorithm Scores:Lower score is better
++----------------------------+-------------------+
+| Algorithm                  | Score             |
++----------------------------+-------------------+
+| Polynomial Regression      | 0.236             |
+| Ridge                      | 0.245             |
+| Lasso                      | 0.249             |
+| Quantile Regression        | 0.253             |
+| Linear Regression          | 0.260             |
+| Logistic Regression (Reg)  | 0.274             |
++----------------------------+-------------------+
+
+Classification Algorithm Scores:
++----------------------------+--------+
+| Algorithm                  |  Score |
++----------------------------+--------+
+| SVM                        |  0.89  |
+| Random Forest              |  0.87  |
+| LDA                        |  0.85  |
+| Decision Tree              |  0.83  |
+| Logistic Regression        |  0.81  |
+| KNN Classifier             |  0.79  |
+| Naive Bayes                |  0.75  |
++----------------------------+--------+
+
+Clustering Algorithm Scores:
++------------------------------+--------+
+| Algorithm                    |  Score |
++------------------------------+--------+
+| KMeans                       |  0.65  |
+| Mean Shift                   |  0.55  |
+| Agglomerative Clustering     |  0.50  |
+| DBSCAN                       |  0.40  |
+| OPTICS                       |  0.35  |
++------------------------------+--------+
